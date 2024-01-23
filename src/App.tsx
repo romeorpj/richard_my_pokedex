@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0)
 
   return (
@@ -33,3 +34,4 @@ function App() {
 }
 
 export default App
+App.displayName = 'App'
