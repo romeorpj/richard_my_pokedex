@@ -105,9 +105,8 @@ select {
 /* ########## END GLOBAL ########## */
 
 /* Handles the purple container/box */
-.main-container {
-	padding: 2rem 2rem 2rem 2rem;
-	/* max-width: 1600px; */
+.container {
+	padding: 2rem;
 	max-height: 90rem;
 	width: 1280px;
 	margin: 0 2rem 0 2rem;
