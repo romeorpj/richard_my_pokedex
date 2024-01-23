@@ -1,0 +1,25 @@
+.poke-card_container {
+	aspect-ratio: 1 / 1;
+	flex: 1 0 18%; /* grow shrink basis */
+	margin: 5px;
+	background: rgba(255, 99, 71, 0.624);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 230px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    
+}
+
+.poke-card_container > h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.poke-card_image {
+	width: 70%;
+	/* max-height: 70%; */
+}

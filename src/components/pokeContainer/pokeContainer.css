@@ -1,0 +1,16 @@
+.poke-Container_Card {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 20px;
+}
+
+/* .pokeListCard > :nth-child(n+6) {
+  margin-top: 20px;
+} */
+
+.poke-Container_h1{
+	font-size: 6rem;
+	color: #fff;
+	text-align: center;
+	margin: 3rem;
+}
