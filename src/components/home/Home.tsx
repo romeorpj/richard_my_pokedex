@@ -2,14 +2,17 @@
 // Pokemon cards
 // Pagination buttons
 
-// import PokeContainer from "../pokeContainer/PokeContainer"
+import useGetPokemon from "../../customHooks/useGetPokemon"
+import PokeContainer from "../pokeContainer/PokeContainer"
 
 
 
 const Home = () => {
+	const { allPokemon} = useGetPokemon()
 	return (
 		<>
 			{/* contains all pokemon cards  */ }
+			<PokeContainer allPokemon={ allPokemon } />
 		</>
 	)
 }
