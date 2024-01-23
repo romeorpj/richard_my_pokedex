@@ -11,8 +11,7 @@ const PokeContainer = ({ allPokemon }: PokemonListPropsToPass) => {
 				{
 					allPokemon.length > 0
 						? allPokemon
-							.map((pokemon ) =>
-								<PokeCard key={ pokemon.name } pokemon={ pokemon } />)
+							.map((pokemon) => <PokeCard key={ pokemon.name } pokemon={ pokemon } />)
 						: <h1 className="poke-Container_h1">Loading Pokemon...</h1>
 				}
 			</div>
