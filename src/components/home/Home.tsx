@@ -4,6 +4,7 @@
 
 import useGetPokemon from "../../customHooks/useGetPokemon"
 import PokeContainer from "../pokeContainer/PokeContainer"
+import './Home.css'
 
 
 
