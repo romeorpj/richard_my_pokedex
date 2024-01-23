@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from 'react'
 import { LoggedPokemon, PokeRegister } from '../interfaces'
 import { POKE_API_URL, POKE_IMG_BASE_URL } from '../BASE_URLS'
 
-
 const useGetPokemon = () => {
 	const [allPokemon, setAllPokemon] = useState<PokeRegister[]>([])
 	const [nextPage, setNextPage] = useState<string | null>(POKE_API_URL)
